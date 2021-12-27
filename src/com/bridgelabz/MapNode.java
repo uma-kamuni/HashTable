@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-public class MapNode<K extends Comparable, V > implements INode <K> {
+public class MapNode<K extends Comparable , V > implements INode <K> {
     K key; 
     V  value;
     MapNode <K , V> next;
