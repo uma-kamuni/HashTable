@@ -5,6 +5,6 @@ public interface INode <K extends Comparable> {
 	void setkey(K key);
 	
 	INode<K> getNext();
-	
-	void setNext(INode<K> next);
+
+	void setNext(INode<K> tempNode);
 }
